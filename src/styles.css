@@ -1,3 +1,33 @@
 .App {
   font-family: sans-serif;
+  
+}
+.Container {
+  display: flex;
+  flex-direction: row;
+}
+.linke_spalte {
+  width: 60%;
+}
+.rechte_spalte {
+  width: 40%;
+  border: 1px solid gray;          
+  background-color: gainsboro; 
+  padding: 8px;         
+}
+
+.box_titel {                            
+  background-color: silver;
+  margin: 0;          
+}
+.fakt_zeile {
+  display: flex;
+  flex-direction: row;
+}
+.fakt_name {
+  width: 65%;
+  font-weight: bold;
+}
+.fakt_wert {
+  width: 35%;
 }
